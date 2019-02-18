@@ -1,0 +1,383 @@
+*{
+ box-sizing: border-box;
+}
+body{
+  margin:0 auto;
+}
+header{
+  height:65px;
+  width:100%;
+  position: fixed;
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.header-img{
+  height:23px;
+  width:220px;
+}
+.header-left{
+  padding:20px 0 0 30px;
+}
+.header-navs{
+  padding-left: 140px;
+}
+.header-navs li{
+  float: left;
+  padding-top:5px;
+  padding:right:10px;
+}
+.header-nav{
+  margin-left: 30px;
+  font-size: 14px;
+  color:#000;
+}
+.header-nav:hover{
+  color:#ff9900;
+}
+.header-navs, .header-left{
+  float:left;
+}
+.inquiry{
+  float: right;
+  line-height: 65px;
+  height:65px;
+  width:110px;
+  background-color: #ff9900;
+  text-align: center;
+}
+.inquiry:hover{
+  background-color: #ffcc00;
+  cursor: pointer;
+}
+.inquiry a{
+  color:#fff;
+  font-size: 14px;
+}
+
+.top-wrapper{
+  background-image: url("http://kidsinnovation.net/wpk/wp-content/themes/kids/common/images/main_01.jpg");
+  height:650px;
+  width:100%;
+  background-size: cover;
+}
+.top-text{
+  padding-top:250px;
+  text-align: center;
+}
+.top-wrapper h2{
+  font-size: 54px;
+  font-weight: 100;
+  color:#fff;
+  margin-bottom: 0;
+}
+.top-wrapper p{
+  font-size: 24px;
+  font-weight: bold;
+  color:#fff;
+  margin-top:0;
+}
+.top-logo{
+  width:60px;
+  height:60px;
+  margin-left:1150px;
+  position:fixed;
+  display:none;
+}
+ .btn{
+  display: block;
+  text-align: center;
+  margin: 40px auto 0;
+  line-height: 40px;
+  width:200px;
+  height:40px;
+  background-color:#00aacc;
+  color:#fff;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color:#00aacc;
+}
+.news-1{
+  height:520px;
+  width:100%;
+  padding-top:50px;
+}
+.news-top{
+  text-align: center;
+}
+.news-top h2{
+  margin-bottom: 0;
+  font-size: 28px;
+}
+.news-top p{
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.news-1-top p{
+  color:#00aacc;
+}
+
+.newsLists{
+  width:100%;
+  height:200px;
+  padding:0 150px;
+  margin:40px 0;
+}
+.newsList{
+  width:215px;
+  float:left;
+  margin-right: 40px;
+}
+.news-p{
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  width:60px;
+  height:20px;
+  background-color:#00aacc;
+  color:#fff;
+  border-radius: 30px;
+  font-size: 11px;
+  margin-right: 95px;
+}
+.date{
+  color:#000;
+  font-size: 12px;
+}
+.news-small{
+
+}
+.text{
+  color:#000;
+  font-size: 13px;
+  margin-top:5px;
+}
+.news-1-btn{
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 40px;
+  width:200px;
+  height:40px;
+  background-color:#fff;
+  color:#00aacc;
+  border-radius: 30px;
+  font-weight: bold;
+  border: solid 2px #00aacc;
+}
+.news-1-btn:hover{
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 40px;
+  width:200px;
+  height:40px;
+  background-color:#00aacc;
+  color:#fff;
+  border-radius: 30px;
+  font-weight: bold;
+  border: solid 2px #fff;
+}
+
+.news-2{
+  height:1050px;
+  background-color: #00aacc;
+  padding-top:50px;
+  text-align: center;
+}
+.news-2-top h2{
+  color:#fff;
+}
+.news-2-top p{
+  color:#ffdd00;
+}
+.news-2 h3{
+  font-size: 36px;
+  text-align: center;
+  color:#fff;
+}
+.news-2 .news-2-text{
+  color:#fff;
+  text-align: center;
+  font-size: 16px;
+}
+.news-2-images{
+  padding-top:50px;
+}
+.news-2-image{
+  width:33.1%;
+  float:left;
+}
+.news-2-text{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.image-right{
+  margin:0;
+}
+.news-2-btn{
+  display: inline-block;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 40px;
+  width:200px;
+  height:40px;
+  background-color:#00aacc;
+  color:#fff;
+  border-radius: 30px;
+  font-weight: bold;
+  border:solid 2px #fff;
+}
+.news-2-btn:hover{
+  display: inline-block;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 40px;
+  width:200px;
+  height:40px;
+  background-color:#fff;
+  color:#00aacc;
+  border-radius: 30px;
+  font-weight: bold;
+  border:solid 2px #00aacc;
+}
+.voice-wrapper{
+  height:500px;
+  padding:50px 120px 0;
+}
+.voices{
+
+}
+.voice{
+  float:left;
+
+  width:300px;
+  margin-right: 40px;
+}
+.voice-text{
+  line-height: 30px;
+}
+.btn-wrapper{
+  text-align: center;
+}
+.voice-btn{
+  display: inline-block;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 40px
+  width:200px;
+  height:40px;
+  background-color:#fff;
+  color:#00aacc;
+  border-radius: 30px;
+  font-weight: bold;
+  border: solid 2px #00aacc;
+}
+.voice-btn:hover{
+  display: inline-block;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 40px
+  width:200px;
+  height:40px;
+  background-color:#00aacc;
+  color:#fff;
+  border-radius: 30px;
+  font-weight: bold;
+  border: solid 2px #fff;
+}
+.contact-wrapper{
+  height:250px;
+  background-color: #eeeeee;
+  padding:0 100px;
+}
+.contact-left{
+  padding-top:30px;
+  width:400px;
+  height:150px;
+  float:left;
+}
+.contact-nav{
+  float:left;
+}
+.contact-nav a{
+  font-size: 14px;
+  color:#000;
+}
+.contact-nav li{
+  padding-bottom: 10px;
+}
+.contact-right{
+  padding-top:30px;
+  margin-left: 150px;
+  width:450px;
+  height:150px;
+  float:left;
+}
+.contact-right p{
+  font-size: 14px;
+}
+.infor{
+  float:left;
+}
+.infor h3{
+  margin: 0;
+}
+.infor p{
+  margin:0;
+}
+.form-btn{
+  display: block;
+  text-align: center;
+  margin-left:60px;
+  line-height: 40px;
+  width:200px;
+  height:40px;
+  background-color:#00aacc;
+  color:#fff;
+  border-radius: 5px;
+  font-weight: bold;
+  float:left;
+  border: solid 2px #00aacc;
+}
+.form-btn:hover{
+  display: block;
+  text-align: center;
+  margin-left:60px;
+  line-height: 40px;
+  width:200px;
+  height:40px;
+  background-color:#fff;
+  color:#00aacc;
+  border-radius: 5px;
+  font-weight: bold;
+  float:left;
+  border: solid 2px #00aacc;
+}
+.logo-wrapper{
+  text-align: center;
+}
+.logo{
+  width:200px;
+  padding-top:30px;
+}
+footer{
+  height:30px;
+  width:100%;
+  text-align: center;
+  background-color: #000;
+  color:#fff;
+  line-height: 30px;
+}
+small{
+  font-size: 10px;
+}
